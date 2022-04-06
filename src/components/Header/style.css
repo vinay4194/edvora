@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  padding: 0 5em;
+  background-color: #101010;
+  height: 5em;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.login_info {
+  display: flex;
+  font-weight: 500;
+
+  align-items: center;
+}
+.login_info img {
+  margin-left: 2em;
+  border-radius: 50%;
+  height: 2.5em;
+}

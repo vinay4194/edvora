@@ -1,0 +1,56 @@
+.containerr {
+  padding: 0 5em;
+  display: flex;
+  height: 5em;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background: none;
+  margin-right: 30px;
+  border: #0000;
+  font-size: 17px;
+  color: #cfcfcf;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fcfcfc;
+}
+.active {
+  font-weight: 500;
+  border-bottom: 2px solid;
+  color: #eeecec;
+}
+.filter_container {
+  position: relative;
+}
+.filters_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  border-radius: 15px;
+  position: absolute;
+  top: 2em;
+  right: -2em;
+  background-color: #000;
+  height: 10em;
+  width: 14em;
+}
+.border {
+  padding-bottom: 10px;
+  width: 80%;
+  color: rgb(121, 121, 121);
+  border-bottom: 2px solid rgb(121, 121, 121);
+  margin-bottom: 15px;
+}
+.select {
+  width: 80%;
+  height: 2.5em;
+  background-color: rgb(36, 36, 36);
+  border: 0 #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
